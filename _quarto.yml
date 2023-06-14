@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "ACA Data Analytics August 2023"
+  sidebar:
+    logo: logo.png
+    style: "docked"
+    search: true
+    contents:
+      - section: "Lesson1"
+        contents:
+          - index.qmd
+          - about.qmd
+      - section: "Lesson2"
+        contents:
+          - index.qmd
+      - section: "Lesson3"
+        contents:
+          - index.qmd
+      - section: "Lesson4"
+        contents:
+          - index.qmd
+      - section: "Lesson5"
+        contents:
+          - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
